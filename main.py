@@ -13,7 +13,7 @@ try:
             output.write('1"\n')
 
         else:
-            output.write(str(counter) + '"\n')
+            output.write(str(counter + 1) + '"\n')
 
         counter += 1
     
